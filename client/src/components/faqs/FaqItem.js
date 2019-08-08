@@ -22,7 +22,7 @@ const FaqItem = ({
                 </Link>
             </div>
             
-            <div>
+            <div id="buttonsView">
                 <p className="post-date">
                     Posted on <Moment format="YYYY/MM/DD">{date}</Moment>
                 </p>
