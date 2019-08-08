@@ -45,14 +45,18 @@ const FaqForm = ({addFaq, history}) => {
 
                 <div className="form-group">
                     <select name="tag" value={tag} onChange={e => onChange(e)}>
-                        <option value="0">* Select tag</option>
-                        <option value="FAQ tag 1">FAQ tag 1</option>
-                        <option value="FAQ tag 2">FAQ tag 2</option>
+                        <option value="0">* Select Category</option>
+                        <option value="FAQ tag 1">Plans & Princing</option>
+                        <option value="FAQ tag 2">Getting Started</option>
+                        <option value="FAQ tag 3">Social Accounts</option>
+                        <option value="FAQ tag 4">Conversations</option>
+                        <option value="FAQ tag 5">Preferences</option>
+                        <option value="FAQ tag 6">Reports</option>
+                        <option value="FAQ tag 7">Integrations</option>
+                        <option value="FAQ tag 8">Mobile App</option>
                     </select>
-                    <small className="form-text"
-                    >Faq tags
-                    </small
-                    >
+                    <small className="form-text">Faq tags
+                    </small>
                 </div>
                 <div className="form-group">
                     <CKEditor
