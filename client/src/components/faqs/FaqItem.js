@@ -15,12 +15,13 @@ const FaqItem = ({
     showAnswers
 }) =>
     <Fragment>
-        <div className="post bg-white py-1 my-1">
-            <div >
+        <div className="post bg-white py-2 my-1">
+            <div id="faqLink">
                 <Link to={`/faqs/${_id}`}>
                     {title}
                 </Link>
             </div>
+            
             <div>
                 <p className="post-date">
                     Posted on <Moment format="YYYY/MM/DD">{date}</Moment>

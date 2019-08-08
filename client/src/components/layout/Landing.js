@@ -11,7 +11,7 @@ const Landing = ({isAuthenticated}) => {
         <section className="landing">
             <div className="dark-overlay">
                 <div className="landing-inner">
-                    <h1 className="x-large">f a q B o x</h1>
+                    <h1 className="x-large">f. a. q. B o x</h1>
                     <p className="lead">
                         Manage your Organization's Process Database, Create Documentation and Answer F.A.Q
                     </p>

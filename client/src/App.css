@@ -186,6 +186,7 @@ img {
 .alert-danger {
   background: var(--danger-color);
   color: #fff;
+
 }
 
 .btn-success,
@@ -461,8 +462,8 @@ button {
 
 .post {
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
   align-items: center;
 }
 
@@ -665,4 +666,9 @@ button {
 }
 li, h1, h2, p, a, h3, h4, h5 {
   font-family: 'Rubik', sans-serif;
+}
+
+#faqLink {
+  margin-left: 10px;
+  font-size: 20px;
 }
